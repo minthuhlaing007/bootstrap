@@ -9,63 +9,60 @@
       crossorigin="anonymous"
     />
     <style>
-      body{
+      body {
         height: 2000px;
       }
     </style>
   </head>
   <body>
-    <!-- nav -->
+    <!--  drop down -->
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">App Title</a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <br />
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container">
-        <a href="#" class="navbar-brand">App Title 2</a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        Send Now
+      </button>
+
+      <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">Send Now</a></li>
+        <li><a href="#" class="dropdown-item">Save Draft</a></li>
+        <li><a href="#" class="dropdown-item">Preview</a></li>
+      </ul>
+    </div>
 
     <br />
+    <br />
 
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">App Title</a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="dropdown">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        data-bs-toggle="dropdown"
+      >
+        Send Now
+      </button>
+
+      <ul class="dropdown-menu">
+        <li><a href="#" class="dropdown-item">Send Now</a></li>
+        <li><a href="#" class="dropdown-item">Save Draft</a></li>
+        <li class="dropdown-divider"></li>
+        <li><a href="#" class="dropdown-item">Preview</a></li>
+      </ul>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="dropdown">
+      <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+        Send Now
+      </button>
+
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a href="#" class="dropdown-item">Send Now</a></li>
+        <li><a href="#" class="dropdown-item">Save Draft</a></li>
+        <li class="dropdown-divider"></li>
+        <li><a href="#" class="dropdown-item">Preview</a></li>
+      </ul>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
