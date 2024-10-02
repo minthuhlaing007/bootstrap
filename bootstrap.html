@@ -15,54 +15,21 @@
     </style>
   </head>
   <body>
-    <!--  drop down -->
+      <!-- collapse -->
 
-    <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-        Send Now
+     <p>
+      <a href="#collapseExample" class="btn btn-secondary" data-bs-toggle="collapse">Link with href</a>
+
+      <button class="btn btn-danger" data-bs-toggle="collapse" data-bs-target="#collapseExample">
+        Button with data-bs target
       </button>
+     </p>
 
-      <ul class="dropdown-menu">
-        <li><a href="#" class="dropdown-item">Send Now</a></li>
-        <li><a href="#" class="dropdown-item">Save Draft</a></li>
-        <li><a href="#" class="dropdown-item">Preview</a></li>
-      </ul>
-    </div>
-
-    <br />
-    <br />
-
-    <div class="dropdown">
-      <button
-        class="btn btn-secondary dropdown-toggle"
-        data-bs-toggle="dropdown"
-      >
-        Send Now
-      </button>
-
-      <ul class="dropdown-menu">
-        <li><a href="#" class="dropdown-item">Send Now</a></li>
-        <li><a href="#" class="dropdown-item">Save Draft</a></li>
-        <li class="dropdown-divider"></li>
-        <li><a href="#" class="dropdown-item">Preview</a></li>
-      </ul>
-    </div>
-
-    <br />
-    <br />
-
-    <div class="dropdown">
-      <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
-        Send Now
-      </button>
-
-      <ul class="dropdown-menu dropdown-menu-dark">
-        <li><a href="#" class="dropdown-item">Send Now</a></li>
-        <li><a href="#" class="dropdown-item">Save Draft</a></li>
-        <li class="dropdown-divider"></li>
-        <li><a href="#" class="dropdown-item">Preview</a></li>
-      </ul>
-    </div>
+     <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Some place holder content for the collapse component. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque est recusandae animi similique debitis reiciendis temporibus neque totam minus! Voluptates reprehenderit autem maiores inventore perferendis perspiciatis sit excepturi minima voluptate.
+      </div>
+     </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
